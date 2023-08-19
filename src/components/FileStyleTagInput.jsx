@@ -65,7 +65,7 @@ const FileStyleTagInput = () => {
         <div className='inputForm'>
             
             <label htmlFor="cssStyle">CSS Style:</label>
-            <textarea id="cssStyle" name="cssStyle" rows="15" cols="40" onChange={handleInput} defaultValue={'font-family: Roboto;' + '\n' + 'font-color: black;' + '\n'}>
+            <textarea id="cssStyle" name="cssStyle" rows="15" cols="40" onChange={handleInput} defaultValue={'body{'+ '\n' + 'font-family: Roboto;' + '\n' + 'font-color: black;' + '\n' + '}' + '\n'}>
             </textarea>
 
             <input id='selectFile' style={{display:'none'}} type="file" onChange={(e)=>{ handleFileInput(e) }} multiple/>
