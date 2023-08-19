@@ -41,6 +41,8 @@ Error generating stack: `+o.message+`
 `+e+`
 <style/>
 
-`+v,p=new Blob([m],{type:"text/plain"});t(p,"article.txt")},i.readAsText(s)}},l=o=>{n(o.target.value)};return Le.jsxs("div",{className:"inputForm",children:[Le.jsx("label",{htmlFor:"cssStyle",children:"CSS Style:"}),Le.jsx("textarea",{id:"cssStyle",name:"cssStyle",rows:"15",cols:"40",onChange:l,defaultValue:`font-family: Roboto;
+`+v,p=new Blob([m],{type:"text/plain"});t(p,"article.txt")},i.readAsText(s)}},l=o=>{n(o.target.value)};return Le.jsxs("div",{className:"inputForm",children:[Le.jsx("label",{htmlFor:"cssStyle",children:"CSS Style:"}),Le.jsx("textarea",{id:"cssStyle",name:"cssStyle",rows:"15",cols:"40",onChange:l,defaultValue:`body{
+font-family: Roboto;
 font-color: black;
+}
 `}),Le.jsx("input",{id:"selectFile",style:{display:"none"},type:"file",onChange:o=>{r(o)},multiple:!0}),Le.jsx("input",{type:"button",id:"selectFileBtn",value:"Select Files and Process",onClick:()=>{document.getElementById("selectFile").click()}})]})};function Od(){return Le.jsxs(Le.Fragment,{children:[Le.jsx("h1",{className:"header",children:"HTML Style Tagging"}),Le.jsx(Rd,{})]})}Ql.createRoot(document.getElementById("root")).render(Le.jsx(wc.StrictMode,{children:Le.jsx(Od,{})}));
